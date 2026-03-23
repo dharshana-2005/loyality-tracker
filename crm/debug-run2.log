@@ -1,0 +1,90 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< com.retail:crm >---------------------------
+[INFO] Building crm 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.3:run (default-cli) > test-compile @ crm >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ crm ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ crm ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ crm ---
+[INFO] skip non existing resourceDirectory C:\Users\HP\Desktop\loyality tracker\crm\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ crm ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.0.3:run (default-cli) < test-compile @ crm <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.3:run (default-cli) @ crm ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.3)
+
+2026-02-26T16:22:00.269+05:30  INFO 2828 --- [crm] [           main] com.retail.crm.CrmApplication            : Starting CrmApplication using Java 17.0.11 with PID 2828 (C:\Users\HP\Desktop\loyality tracker\crm\target\classes started by HP in C:\Users\HP\Desktop\loyality tracker\crm)
+2026-02-26T16:22:00.273+05:30  INFO 2828 --- [crm] [           main] com.retail.crm.CrmApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-02-26T16:22:00.908+05:30  INFO 2828 --- [crm] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-26T16:22:00.956+05:30  INFO 2828 --- [crm] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2026-02-26T16:22:01.342+05:30  INFO 2828 --- [crm] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-02-26T16:22:01.351+05:30  INFO 2828 --- [crm] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-26T16:22:01.352+05:30  INFO 2828 --- [crm] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-02-26T16:22:01.392+05:30  INFO 2828 --- [crm] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1070 ms
+2026-02-26T16:22:01.611+05:30  INFO 2828 --- [crm] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-26T16:22:01.654+05:30  INFO 2828 --- [crm] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-02-26T16:22:02.019+05:30  INFO 2828 --- [crm] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-26T16:22:02.068+05:30  INFO 2828 --- [crm] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-26T16:22:02.348+05:30  INFO 2828 --- [crm] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46d148bd
+2026-02-26T16:22:02.351+05:30  INFO 2828 --- [crm] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-26T16:22:02.418+05:30  INFO 2828 --- [crm] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/loyalty_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: loyalty_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-26T16:22:03.801+05:30  INFO 2828 --- [crm] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-26T16:22:03.927+05:30  INFO 2828 --- [crm] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-26T16:22:04.062+05:30  INFO 2828 --- [crm] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-26T16:22:04.507+05:30  WARN 2828 --- [crm] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-26T16:22:05.051+05:30  INFO 2828 --- [crm] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-02-26T16:22:05.066+05:30  INFO 2828 --- [crm] [           main] com.retail.crm.CrmApplication            : Started CrmApplication in 5.182 seconds (process running for 5.498)
+2026-02-26T16:22:08.021+05:30  INFO 2828 --- [crm] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-26T16:22:08.026+05:30  INFO 2828 --- [crm] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-26T16:22:08.029+05:30  INFO 2828 --- [crm] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: select c1_0.id,c1_0.created_at,c1_0.name,c1_0.phone from customer c1_0 where c1_0.phone=?
+Hibernate: insert into purchase (amount,customer_id,purchase_date) values (?,?,?)
+2026-02-26T17:00:14.377+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s347ms376탎600ns).
+2026-02-26T17:31:04.237+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m57s11ms390탎100ns).
+2026-02-26T18:16:11.888+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m6s985ms865탎300ns).
+2026-02-26T18:25:58.827+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m16s783ms553탎300ns).
+2026-02-26T18:27:18.744+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s916ms830탎200ns).
+2026-02-26T18:42:43.384+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m54s379ms227탎600ns).
+2026-02-26T19:09:55.778+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m12s29ms2탎200ns).
+2026-02-26T19:31:48.106+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m52s20ms49탎500ns).
+2026-02-26T19:38:52.309+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m4s92ms942탎500ns).
+2026-02-26T20:25:52.008+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m59s659ms543탎300ns).
+2026-02-26T21:53:54.017+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m811ms741탎300ns).
+2026-02-26T22:17:33.629+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m39s490ms222탎600ns).
+2026-02-26T22:37:01.947+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m28s202ms25탎600ns).
+2026-02-26T22:59:42.951+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m41s4ms62탎200ns).
+2026-02-26T23:23:33.213+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m50s6ms521탎600ns).
+2026-02-26T23:43:26.072+05:30  WARN 2828 --- [crm] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m52s858ms987탎600ns).

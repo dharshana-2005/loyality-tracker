@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" role="img" aria-labelledby="title desc">
+  <title id="title">AI Retail Analytics Dashboard</title>
+  <desc id="desc">Abstract startup style analytics illustration with cards and charts.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="50%" stop-color="#0f2f4a" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0.32" />
+    </linearGradient>
+    <linearGradient id="barA" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+    <linearGradient id="barB" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#5eead4" />
+    </linearGradient>
+    <linearGradient id="barC" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#fdba74" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="960" fill="url(#bg)" />
+  <circle cx="1260" cy="170" r="180" fill="#22d3ee" fill-opacity="0.14" />
+  <circle cx="220" cy="110" r="140" fill="#fb923c" fill-opacity="0.15" />
+  <circle cx="1350" cy="830" r="210" fill="#34d399" fill-opacity="0.13" />
+
+  <g transform="translate(110 150)">
+    <rect width="1220" height="680" rx="26" fill="#020617" fill-opacity="0.64" stroke="#7dd3fc" stroke-opacity="0.34" />
+
+    <rect x="48" y="46" width="530" height="126" rx="16" fill="url(#card)" />
+    <rect x="640" y="46" width="530" height="126" rx="16" fill="url(#card)" />
+
+    <text x="74" y="100" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="40" font-weight="700">Smart Loyalty Analytics</text>
+    <text x="74" y="136" fill="#bae6fd" font-family="Arial, sans-serif" font-size="22">AI insights, retention score, and revenue signals</text>
+
+    <g transform="translate(48 230)">
+      <rect width="560" height="392" rx="18" fill="#0f172a" fill-opacity="0.74" stroke="#38bdf8" stroke-opacity="0.28" />
+      <text x="24" y="44" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24" font-weight="700">Revenue Trend</text>
+      <polyline points="34,292 120,240 220,260 320,180 418,205 520,120" fill="none" stroke="#22d3ee" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+      <circle cx="120" cy="240" r="7" fill="#67e8f9" />
+      <circle cx="320" cy="180" r="7" fill="#67e8f9" />
+      <circle cx="520" cy="120" r="7" fill="#67e8f9" />
+    </g>
+
+    <g transform="translate(656 230)">
+      <rect width="514" height="392" rx="18" fill="#0f172a" fill-opacity="0.74" stroke="#34d399" stroke-opacity="0.28" />
+      <text x="24" y="44" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24" font-weight="700">Loyalty Segments</text>
+      <rect x="54" y="270" width="84" height="92" rx="10" fill="url(#barA)" />
+      <rect x="176" y="220" width="84" height="142" rx="10" fill="url(#barB)" />
+      <rect x="298" y="180" width="84" height="182" rx="10" fill="url(#barC)" />
+      <rect x="420" y="148" width="50" height="214" rx="10" fill="url(#barA)" />
+    </g>
+  </g>
+</svg>
