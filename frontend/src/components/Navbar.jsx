@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-function Navbar({ theme, onToggleTheme }) {
+function Navbar({ theme, onToggleTheme, onLogout }) {
   const isDark = theme === "dark";
 
   return (
@@ -50,6 +50,10 @@ function Navbar({ theme, onToggleTheme }) {
           </span>
           <span className="toggle-text">{isDark ? "Dark" : "Light"} mode</span>
         </button>
+
+        <NavLink to="/login" className="logout-link" onClick={onLogout}>
+          Logout
+        </NavLink>
       </div>
     </nav>
   );
