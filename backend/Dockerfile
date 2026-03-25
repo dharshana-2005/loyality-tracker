@@ -7,4 +7,4 @@ COPY . .
 RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 
-CMD ["java", "-jar", "target/YOUR_JAR_NAME.jar"]
+CMD ["java", "-jar", "target/crm-0.0.1-SNAPSHOT.jar"]
