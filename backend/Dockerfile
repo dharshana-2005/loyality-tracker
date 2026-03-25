@@ -2,7 +2,6 @@ FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
-# Copy only backend files properly
 COPY . .
 
 RUN chmod +x mvnw
